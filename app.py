@@ -8,7 +8,7 @@ import json
 # ===============================
 # 🔗 ใส่ Webhook URL ตรงนี้
 # ===============================
-WEBHOOK_URL = "ใส่ URL จาก Apps Script ที่นี่"
+WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyx_WZtzg-50AatkhH6SWbbg2eV2kL1_yKrjmBhr40uhY27QIZ3k3G7MqoOoIFg_wvBSQ/exec"
 
 # ===============================
 # CONFIG (A4 300 DPI)
