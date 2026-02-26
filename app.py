@@ -157,8 +157,8 @@ def render_image(data):
     bg = Image.open("form-bg.png").convert("RGB")
     draw = ImageDraw.Draw(bg)
 
-    FONT = ImageFont.truetype("font/THSarabunNew.ttf", 90)
-    FONT_BIG = ImageFont.truetype("font/THSarabunNew.ttf", 145)
+    FONT = ImageFont.truetype("THSarabunNew.ttf", 90)
+    FONT_BIG = ImageFont.truetype("THSarabunNew.ttf", 145)
 
     draw_text(draw, "request_dept", data.get("dept"), FONT)
     draw_text(draw, "requester", data.get("requester"), FONT)
